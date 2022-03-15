@@ -13,9 +13,9 @@ public class IntegralTest {
     @Test
     public void test_integrals(){
         double[] polynomial = new double[3];
-        polynomial[0] = -1;
+        polynomial[0] = 1;
         polynomial[1] = 0;
-        polynomial[2] = 1;
+        polynomial[2] = -1;
 
         double result = MathUtils.integralOfPolynomial(polynomial, -1,1);
         assertThat(result, lessThan(1.34));
