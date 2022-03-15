@@ -10,9 +10,10 @@ public class MathApplication {
         System.out.println("5! to " + MathUtils.factorial(5)); //powinno być 120
 
         double[] polynomial = new double[3];
-        polynomial[0] = -1;
+        polynomial[0] = 1;
         polynomial[1] = 0;
-        polynomial[2] = 1;
+        polynomial[2] = -1;
+        
         // współczynniki dla -x^2 + 1
         // inaczej: (-1)*x^2 + 0 * x + 1
         System.out.println("pole pod '-x^2 + 1' na przedziale [-1,1] to "
